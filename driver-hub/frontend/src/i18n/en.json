@@ -1,0 +1,34 @@
+{
+    "nav": {
+        "home": "Home",
+        "jobs": "Find Jobs",
+        "employers": "Top Employers",
+        "about": "About",
+        "contact": "Contact",
+        "signin": "Sign In",
+        "register": "Register",
+        "tagline": "Professional Recruitment Network"
+    },
+    "hero": {
+        "badge": "Driver Recruitment & Fleet Hiring",
+        "title1": "Drive Your Career Forward with",
+        "title2": "Driver Hub",
+        "sub": "Connecting verified commercial and personal drivers directly with top logistics fleets, corporate employers, and private vehicle owners. Direct hiring, verified licenses, zero agency cuts.",
+        "chip1": "Direct Hiring",
+        "chip2": "License documents reviewed",
+        "chip3": "Salary shown on each job listing",
+        "chip4": "Zero Commission",
+        "q": "Job title, 'HMV', 'Cab', 'Delivery'...",
+        "allTypes": "All Driver Types",
+        "loc": "City, District or PIN (e.g. 560100)",
+        "search": "Search",
+        "s1": "Verified Drivers",
+        "s2": "Fleet & Corporate Employers",
+        "s3": "Active Job Openings",
+        "s4": "Successful Hires"
+    },
+    "chat": {
+        "title": "Support Assistant",
+        "sub": "Instant Driver & Job Help"
+    }
+}

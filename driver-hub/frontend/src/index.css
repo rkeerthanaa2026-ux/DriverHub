@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  /* names kept so existing pages recolor automatically */
+  --color-navy-950: #0c0f14;
+  --color-navy-900: #14181f;
+  --color-navy-800: #1f252e;
+  --color-brand: #22c55e;
+  --color-brand-dark: #15803d;
+
+  /* new tokens */
+  --color-paper: #f6f4ee;
+  --color-line: #e5e1d6;
+
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Plus Jakarta Sans", sans-serif;
+}
+
+html[lang="kn"] h1,
+html[lang="kn"] h2,
+html[lang="kn"] h3 {
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", "Baloo Tamma 2", system-ui, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-navy-900);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bricolage Grotesque", "Baloo Tamma 2", "Plus Jakarta Sans", sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.container-x {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@keyframes dh-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.dh-marquee {
+  display: flex;
+  width: max-content;
+  animation: dh-marquee 45s linear infinite;
+}
+
+.dh-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dh-marquee {
+    animation: none;
+    overflow-x: auto;
+  }
+}
