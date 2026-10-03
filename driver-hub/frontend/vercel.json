@@ -2,11 +2,11 @@
     "rewrites": [
         {
             "source": "/api/:path*",
-            "destination": "https://YOUR-BACKEND-NAME.onrender.com/api/:path*"
+            "destination": "https://driverhub-api-epii.onrender.com/api/:path"
         },
         {
             "source": "/uploads/:path*",
-            "destination": "https://YOUR-BACKEND-NAME.onrender.com/uploads/:path*"
+            "destination": "https://driverhub-api-epii.onrender.com/uploads/:path*"
         },
         {
             "source": "/(.*)",
